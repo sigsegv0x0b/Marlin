@@ -136,7 +136,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
-//#define MACHINE_UUID "8cd276e6-41c7-4439-8f4e-f188537ebdac"
+//#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
 
 // @section extruder
 
@@ -801,7 +801,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -939,7 +939,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -45, -7, -3 }
+#define NOZZLE_TO_PROBE_OFFSET { -52, -20, -3 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1033,8 +1033,8 @@
 
 // @section extruder
 
-#define DISABLE_E false  // For all extruders
-//#define DISABLE_INACTIVE_EXTRUDER true // Keep only the active extruder enabled
+#define DISABLE_E false             // For all extruders
+//#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
 
 // @section machine
 
@@ -1234,7 +1234,7 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 4
+  #define GRID_MAX_POINTS_X 5
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Probe along the Y axis, advancing X after each column
@@ -1704,7 +1704,7 @@
 //  If CLOCKWISE normally moves DOWN this makes it go UP.
 //  If CLOCKWISE normally moves UP this makes it go DOWN.
 //
-//#define REVERSE_MENU_DIRECTION
+#define REVERSE_MENU_DIRECTION
 
 //
 // This option reverses the encoder direction for Select Screen.

@@ -28,13 +28,13 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "KF 2.0.9.3"
+#define SHORT_BUILD_VERSION "SP01 2.0.9.3"
 
 /**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-#define DETAILED_BUILD_VERSION "Kersey Fabrications " SHORT_BUILD_VERSION
+#define DETAILED_BUILD_VERSION "Slavas Ender5" SHORT_BUILD_VERSION
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,

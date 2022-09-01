@@ -34,7 +34,7 @@
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-#define DETAILED_BUILD_VERSION "Slavas Ender5" SHORT_BUILD_VERSION
+#define DETAILED_BUILD_VERSION "Slavas CR10S" SHORT_BUILD_VERSION
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
@@ -46,7 +46,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-#define MACHINE_NAME "Ender 5 Plus"
+#define MACHINE_NAME "CR-10S"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source

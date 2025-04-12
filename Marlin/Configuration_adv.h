@@ -990,10 +990,10 @@
    * differs, a mode set EEPROM write will be completed at initialization.
    * Use the option below to force an EEPROM write to a V3.1 probe regardless.
    */
-  //#define BLTOUCH_SET_5V_MODE
+  #define BLTOUCH_SET_5V_MODE
 
   // Safety: Enable voltage mode settings in the LCD menu.
-  //#define BLTOUCH_LCD_VOLTAGE_MENU
+  #define BLTOUCH_LCD_VOLTAGE_MENU
 
   /**
    * Safety: Activate if connecting a probe with an unknown voltage mode.
@@ -2920,7 +2920,7 @@
  *
  * Enable PARK_HEAD_ON_PAUSE to add the G-code M125 Pause and Park.
  */
-//#define ADVANCED_PAUSE_FEATURE
+#define ADVANCED_PAUSE_FEATURE
 #if ENABLED(ADVANCED_PAUSE_FEATURE)
   #define PAUSE_PARK_RETRACT_FEEDRATE         60  // (mm/s) Initial retract feedrate.
   #define PAUSE_PARK_RETRACT_LENGTH            2  // (mm) Initial retract.

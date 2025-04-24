@@ -1,0 +1,46 @@
+
+*** These modified files were found in JOE when it aborted on Tue Apr 15 00:03:59 2025
+*** JOE was aborted by UNIX signal 15
+
+*** File '(Unnamed)'
+20
+file 
+\nvtx
+FACTORY
+browser
+proofpoint
+ 
+ 
+\n
+browser
+
+*** File '(Unnamed)'
+CONTROLLER_FAN_USE_HOTEND
+CONTROLLER
+E0_AUTO_
+FAN
+FAN_PIN
+TILT
+TILT
+TILT
+TILT
+HYS
+
+*** File '(Unnamed)'
+Marlin/Configuration_adv.h
+Marlin/Configuration_adv.h
+Marlin/Configuration_adv.h
+/Users/spolyakov/Configuration_adv.h
+Marlin/Configuration.h
+/Users/spolyakov/Configuration.h
+/Users/spolyakov/Configuration_adv.h
+Marlin/Configuration.h
+Marlin/Configuration_adv.h
+Marlin/Configuration_adv.h
+Marlin/Configuration_adv.h
+
+*** File '* Startup Log *'
+Processing '/opt/homebrew/Cellar/joe/4.6/etc/joe/joerc'...
+Processing '/opt/homebrew/Cellar/joe/4.6/etc/joe/ftyperc'...
+Finished processing /opt/homebrew/Cellar/joe/4.6/etc/joe/ftyperc
+Finished processing /opt/homebrew/Cellar/joe/4.6/etc/joe/joerc
